@@ -1,0 +1,117 @@
+main {
+  padding: 0 16px;
+  width: 100%;
+}
+
+section {
+  width: 100%;
+}
+.progress-bar {
+  width: 100%;
+  height: 8px;
+  border-radius: 4px;
+  background-color: #f4f4f4;
+  margin-bottom: 16px;
+}
+
+.progress-bar-filled {
+  height: 8px;
+  border-radius: 4px;
+  background-color: #01ab01;
+}
+.question-container {
+  background-color: #f4f4f4;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+.question-container p {
+  font-weight: 400;
+  font-size: 12px;
+  color: #01ab01;
+  margin-bottom: 12px;
+}
+.question-container h2 {
+  font-weight: 600;
+  font-size: 14px;
+}
+.answers-container {
+  margin-bottom: 16px;
+}
+.answers-container div {
+  min-height: 36px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+button.next {
+  border: none;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #01ab01;
+  color: white;
+}
+.score-result-container {
+  max-width: 160px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.score-percent {
+  font-weight: 700;
+  font-size: 40px;
+  color: #01ab01;
+}
+.score-count {
+  font-weight: 400;
+  font-size: 14px;
+  color: #666666;
+}
+
+.score-message {
+  margin-top: 12px;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+}
+
+button.finish {
+  border: none;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #01ab01;
+  color: white;
+  margin-top: 200px;
+}
+
+.option-correct {
+  background: rgba(235, 249, 235, 1);
+  color: rgba(1, 171, 1, 1);
+  border: rgba(1, 171, 1, 1) 1px solid !important;
+}
+
+.option-wrong {
+  background: rgba(255, 237, 235, 1);
+  color: rgba(255, 31, 2, 1);
+  border: rgba(255, 31, 2, 1) 1px solid !important;
+}
