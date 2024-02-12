@@ -20,7 +20,7 @@ interface QuizQuestion {
   };
 }
 
-const mockQuestions: QuizQuestion[] = [
+const mockQuestions = [
   {
     questionId: 1,
     quesitonText: "Lorem ipsum dolor mit?",
@@ -109,6 +109,7 @@ function Quiz() {
     mockQuestions.map((questions) => {
       return {
         ...questions,
+        answers: questions.answers.map((answer) => ({ ...answer, selected: false })),
         userAnswer: null,
       };
     })
